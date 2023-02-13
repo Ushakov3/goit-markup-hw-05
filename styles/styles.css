@@ -589,6 +589,7 @@ span {
 
 .card-set-link {
   display: block;
+  transition: box-shadow var(--transition-dur-func);
 }
 
 .card-set-link:is(:hover, :focus) {
